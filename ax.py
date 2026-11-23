@@ -31,3 +31,5 @@ while i <= 5:
     status = "Even" if i % 2 == 0 else "Odd"
     print(f"{i} -> {status}")
     i += 1
+
+    
