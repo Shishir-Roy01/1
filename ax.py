@@ -24,12 +24,9 @@ print("Even", even_nums)
 print("Odd", odd_nums)    
 
 
-
-
 i = 1
 while i <= 5:
     status = "Even" if i % 2 == 0 else "Odd"
     print(f"{i} -> {status}")
     i += 1
 
-    
