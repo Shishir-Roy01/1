@@ -1,35 +1,33 @@
 
-n = int (input ("enter the last point : "))
-sum = 0
-u = 1
-while u <=n:
-    sum = sum +u
-    u=u+1
-print(sum)
+fruits = ["apple", "banana", "mango"]
 
-x = 1
-while x <=70:
-    print (x)
-    x = x + 1 
-    if x == 15 :
-        break 
-print ("suxcess")
+for fruit in fruits:
+    print(fruit) 
 
-l = 1 
-while l <=70:
-   if l == 15:
-       l = l + 1 
-       continue 
-   print (l)
-   l = l + 1
-    
-print ("complit")
+for num in range(1, 11):
+    if num % 2 == 0:
+        print(f"{num} is Even")
+    else:
+        print(f"{num} is Odd")
 
-  
+numbers = [4, 7, 12, 19, 24, 31]
+even_nums = []
+odd_nums = []
+
+for n in numbers:
+    if n % 2 == 0:
+        even_nums.append(n)
+    else:
+        odd_nums.append(n)
+
+print("Even", even_nums)  
+print("Odd", odd_nums)    
 
 
 
- 
 
-
-
+i = 1
+while i <= 5:
+    status = "Even" if i % 2 == 0 else "Odd"
+    print(f"{i} -> {status}")
+    i += 1
